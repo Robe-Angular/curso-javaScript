@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Proyecto con Java Script</title>
+	<!--Estilos CSS-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<!--Slider-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  	
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  	<!--Mis scripts-->
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<!--Moment JS-->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es-mx.min.js" integrity="sha512-Qy4cmZ6v7vnVEc0cn/BIj9q15eB98do4hMvu8xtc/H+v+YYpdpDrB35flHS3NPLbZUpe1npSYY/u+Gi3UB61vw==" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div id="selector-theme">
+		<div id="to-green"></div>
+		<div id="to-red"></div>
+		<div id="to-blue"></div>
+	</div>
+	<section id=global>
+		
+		<!--Cabecera-->
+		<header>
+			<div id="logo">
+				<h1>Proyecto JS</h1>
+			</div>
+			<div class="clearfix">
+				
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--Slider-->
+		<div id="slider">
+			<div class="galeria">
+			  <div><img src="img/hojas.jpg" title="Funky roots"></div>
+			  <div><img src="img/rojo.jpg" title="The long and winding road"></div>
+			  <div><img src="img/cielo.jpg" title="Happy trees"></div>
+			</div>
+		</div>
+		<!--Contenido-->
+		<section id="content">
+			<div id="posts">
+				
+			</div>
+			<aside id="sidebar">
+				<div id="about">
+					<h4><span>¿Quién soy?</span></h4>
+					<img src="img/caracol.jpg">
+					<p>
+						Nulla pretium enim tortor, ut eleifend velit ornare luctus. Maecenas sollicitudin malesuada eleifend. Aenean pulvinar ante posuere nisi vulputate ornare. Phasellus rutrum eget turpis sed mattis. Etiam nisi purus, finibus non nibh at, consequat gravida felis.
+					</p>
+				</div>
+				<div id="login">
+					<h4><span>¿Quién soy?</span></h4>
+					<form>
+						<label for="name">
+							Nombre
+						</label>
+						<input type="text" name="name" id="form_name">
+						<label for="name">
+							Correo
+						</label>
+						<input type="text" name="email">
+						<label for="name">
+							Password
+						</label>
+						<input type="password" name="password">
+						<input type="submit" value="entrar">
+					</form>
+
+				</div>
+			</aside>
+			<div class="clearfix">
+				
+			</div>
+		</section>
+	</section>
+	<footer>
+		Máster de Java Script de víctor Robles &copy;
+		<a href="#" class="subir">Ir arriba</a>
+	</footer>
+
+</body>
+</html>
